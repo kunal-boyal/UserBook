@@ -24,7 +24,7 @@ const app = (
   </Provider>
 )
 
-axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "https://intense-tundra-27099.herokuapp.com";
 
 ReactDOM.render(app,document.getElementById('root'));
 
